@@ -1,0 +1,73 @@
+body
+{
+	background-color: #555555;
+}
+
+form
+{
+	width: 300px;
+	margin:auto;
+}
+
+fieldset
+{
+	background-color: #EEEEEE;
+	border: none;
+}
+
+legend
+{
+	color: #DDDDDD;
+	padding-bottom: 20px;
+}
+
+.ceored
+{
+	float: left;
+	width:100%;
+}
+.tekst
+{
+	float:left;
+	width: 80%;
+	margin-right:20%
+}
+
+.cek
+{
+	float:left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+select
+{
+	width:100%;
+	margin-bottom: 10px;
+}
+textarea
+
+{
+	width: 100%;
+	height: 100px;
+}
+
+#lozinka
+{
+	width: 118px;
+}
+
+#labela
+{
+	color: #DDDDDD;
+}
+
+
+
+
+
+
+
+
+
+
