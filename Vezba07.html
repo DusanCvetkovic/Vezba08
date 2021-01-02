@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Obrazac</title>
+	<meta name="description" content="Forma za popunjavanje">
+	<meta name="keywaords" content="licni podaci,student,ucenik">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="stil07.css">
+	</head>
+	
+	<body>
+		<form method="POST" action="mailto:mejl@mejl.com?subject=Prijava rada" enctype="text/plain">
+			<fieldset>
+			<legend>Licni podaci</legend>
+				<label class="ceored">Ime:</label>
+				<input class="tekst" type="text" name="Ime"/>
+				<label class="ceored">Prezime:</label>
+				<input class="tekst" type="text" name="Prezime"/>
+				<label class="ceored">Tema:</label>
+				<input class="tekst" type="text" name="Tema"/>
+				<label>Ucenik:</label>
+				<input type="radio" name="zvanje" value="Ucenik" checked/>
+				<label>Student:</label>
+				<input type="radio" name="zvanje" value="Student" checked/>
+			</fieldset>
+			
+			<fieldset>
+			<legend>Podaci o radu</legend>
+				<input class="cek" type="checkbox" name="Strad" value="Strad" checked />
+				<label class="cek">Stampani rad</label>
+				<input class="cek" type="checkbox" name="CD" value="CD"  />
+				<label class="cek">CD</label>
+				<input class="cek" type="checkbox" name="Slajdovi" value="Slajdovi"  />
+				<label class="cek">Slajdovi</label>
+				<label>Predmet:</label>
+					<select name="Predmet">
+						<option value="Matematika" selected>Matematika</option>
+						<option value="Fizika" >Fizika</option>
+						<option value="Hemija" >Hemija</option>
+					</select>
+				<label>Opis rada:</label>
+				<textarea name="Opis rada"></textarea>
+			</fieldset>
+			
+			<label id="labela">Lozinka:</label>
+			<input id="lozinka" type="password" name="Lozinka"/>
+			<input type="submit" value="Prijavi"/>
+			<input type="reset" value="Ponisti"/>			
+		</form>
+	</body>
+	
+</html>
